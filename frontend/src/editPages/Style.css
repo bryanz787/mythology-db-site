@@ -1,0 +1,111 @@
+input,
+button {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+.form-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+button[type="submit"]:hover {
+    opacity: 1;
+}
+
+.form-container {
+    padding: 20px;
+}
+
+.edit-form {
+    max-width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.edit-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.edit-form label span {
+    display: block;
+    font-size: 0.9em;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.edit-form input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    /* Added to fix padding and border issue */
+}
+
+.edit-form button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0055ff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.edit-form button:hover {
+    background-color: #0035bb;
+}
+
+.edit-form .form-title {
+    font-size: 1.5em;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.non-editable-message-container {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.non-editable-message-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.non-editable-message-content {
+    font-size: 1em;
+    color: #666;
+}
+
+
+
+@media (max-width: 600px) {
+    .edit-form {
+        width: 90%;
+        margin: 20px auto;
+    }
+}

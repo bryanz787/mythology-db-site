@@ -1,0 +1,34 @@
+.table-view {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 100px;
+}
+  
+.table-view th, .table-view td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+  
+.table-view th {
+    background-color: #f4f4f4;
+    text-align: center; 
+}
+  
+.table-view tbody tr:nth-child(odd) {
+    background-color: #fbfbfb;
+}
+  
+.table-title {
+    font-size: 24px; 
+    font-weight: bold; 
+    margin-bottom: 20px; 
+}
+
+.full-width-input {
+    width: 100%;
+    box-sizing: border-box; 
+    margin: 0; 
+    border: 1px solid #ccc; 
+    padding: 4px; 
+}

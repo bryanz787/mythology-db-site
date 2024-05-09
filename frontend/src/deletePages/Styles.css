@@ -1,0 +1,32 @@
+.delete-button {
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.3s ease; 
+}
+
+.delete-button:hover {
+  background-color: darkred;
+  color: lightgrey;
+}
+
+.input-field {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.edit-form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.form-title {
+  margin-bottom: 20px;
+}
